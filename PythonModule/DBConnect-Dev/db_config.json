@@ -1,0 +1,46 @@
+{
+    "environments": {
+        "weather_guard_model_data": {
+            "NAME": "weather_guard_model_data",
+            "HOST": "192.168.168.185",
+            "PORT": "5432",
+            "USER": "qliksense",
+            "PASS": "Qlik@123!"
+        },
+        "drx_fpl_test": {
+            "NAME": "drx_fpl_test",
+            "HOST": "192.168.168.199",
+            "PORT": "5432",
+            "USER": "qliksense",
+            "PASS": "Qlik@123!"
+        },
+        "drx_fpl_prod": {
+            "NAME": "drx_fpl_prod",
+            "HOST": "192.168.168.185",
+            "PORT": "5432",
+            "USER": "qliksense",
+            "PASS": "Qlik@123!"
+        },
+        "drx_fpl_local": {
+            "NAME": "drxfpl_local",
+            "HOST": "localhost",
+            "PORT": "5432",
+            "USER": "postgres",
+            "PASS": "qwerty"
+        },
+        "evprophet_demo": {
+            "NAME": "evprophet_demo",
+            "HOST": "192.168.168.199",
+            "PORT": "5432",
+            "USER": "qliksense",
+            "PASS": "Qlik@123!"
+        },
+        "aero_demo": {
+            "NAME": "aero_demo",
+            "HOST": "192.168.168.244",
+            "PORT": "5433",
+            "USER": "drx_demo_admin",
+            "PASS": "SzM19p{b8#2S"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pg_dbconnect"
+version = "2.5.2"
+description = "A utility for PostgreSQL/PostGIS integration and data handling"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "JVL", email = "jeevrlendio@gmail.com"}
+]
+dependencies = [
+    "pandas",
+    "geopandas",
+    "fiona",
+    "psycopg2",
+    "sqlalchemy",
+    "openpyxl"
+]
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
